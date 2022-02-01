@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(59, 59, 59);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 20px 10px;
+    background-color: white;
+}
+
+.textoHeader {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 800px;
+}
+
+.tituloCheckout {
+    display: flex;
+    height: 50%;
+    width: 30%; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textoTituloCheckout {
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    color: white;
+}
+
+.formulario {
+ background-color: rgb(216, 216, 216);
+ width: 400px;
+ height: 700px;
+ border-radius: 5px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.container{
+    display: block;
+    width: 100%;
+    padding: 5px 0px 0px 70px;
+}
+
+label{
+    display: block;
+    font-size: 15px;
+    margin: 15px 0px 5px;
+}
+
+input{
+    border-radius: 2px;
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+}
+
+select{
+    width: 80%;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+button{
+    background-color: #57c2dd; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 50px 30px;
+}
+
+
+
+@media (max-width: 600px){
+
+    .textoTituloCheckout {
+    display: none;
+    }
+
+
+    .formulario {
+        margin: 90px 30px 20px 0px;
+        background-color: rgb(216, 216, 216);
+        width: 400px;
+        height: 700px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+       }
+
+       .container{
+        padding: 10px;
+        display: block;
+        width: 100%;
+        background-color: red;
+    }
+
+
+    label{
+        display: block;
+        font-size: 15px;
+    }
+    
+    input{
+        border-radius: 2px;
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+    }
+    
+    select{
+        width: 100%;
+        height: 30px;
+        border-radius: 2px;
+        font-size: 15px;
+    }
+}
